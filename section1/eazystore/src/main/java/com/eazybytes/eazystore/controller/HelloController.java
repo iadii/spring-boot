@@ -1,9 +1,6 @@
 package com.eazybytes.eazystore.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class HelloController {
@@ -21,5 +18,10 @@ public class HelloController {
     @PostMapping("/hello")
     public String sayHelloPost() {
         return "Hello post method";
+    }
+
+    @DeleteMapping("/hello")
+    public String sayHelloDelete() {
+        return "Hello delete method";
     }
 }
