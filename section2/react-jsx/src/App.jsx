@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import MathsFun from './problems/mathe'
 import Log from './problems/logSign'
+import Arr from './problems/renderingArrays'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
       {element}
       <MathsFun />
+      <Arr/>
       <Log />
     </>
   )
