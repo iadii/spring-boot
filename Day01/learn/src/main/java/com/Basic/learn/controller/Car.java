@@ -1,4 +1,4 @@
-package com.Basic.learn;
+package com.Basic.learn.controller;
 
 import org.springframework.stereotype.Component;
 
