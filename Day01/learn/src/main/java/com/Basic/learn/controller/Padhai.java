@@ -5,9 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Padhai {
-    public int Sum() {
-        int a = 5;
-        int b = 6;
+    public int Sum(int a, int b) {
         int sum = a + b;
         return sum;
     }
